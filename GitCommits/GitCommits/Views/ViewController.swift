@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        GitService().getRecentCommits { result in
+            switch result {
+            case let .success(commits):
+                print(commits)
+            case let .failure(error):
+               print(error)
+            }
+        }
     }
     
     override func loadView() {
