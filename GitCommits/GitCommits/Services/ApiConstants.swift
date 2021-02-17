@@ -8,5 +8,11 @@
 import Foundation
 
 struct ApiConstants {
-    static let baseUrl = URL(string: "https://api.github.com/repos/alamofire/alamofire/commits?per_page=25")!
+    
+    static let baseUrl = URL(string: "https://api.github.com")!
+    
+    static func commitsURL(user: String = "alamofire", repo: String = "alamofire", perPage: Int = 25) -> URL {
+        let commitURLString = "\(baseUrl)/repos/\(user)/\(repo)/commits?per_page=\(perPage)"
+        return URL(string: commitURLString)!
+    }
 }

@@ -27,9 +27,8 @@ class GitService: GitService_Protocol {
         self.jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
     }
 
-    // get customer's info
     func getRecentCommits(completion: @escaping (Result<[CommitInfo], Error>) -> Void) {
-        let request = HTTPRequest(url: ApiConstants.baseUrl)
+        let request = HTTPRequest(url: ApiConstants.commitsURL())
         
         httpClient.send(request: request) { result in
             switch result {
