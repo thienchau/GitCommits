@@ -10,7 +10,6 @@
 		89194B0A25DD8A8100E8E21B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0925DD8A8100E8E21B /* AppDelegate.swift */; };
 		89194B0C25DD8A8100E8E21B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0B25DD8A8100E8E21B /* SceneDelegate.swift */; };
 		89194B0E25DD8A8100E8E21B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0D25DD8A8100E8E21B /* ViewController.swift */; };
-		89194B1125DD8A8100E8E21B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89194B0F25DD8A8100E8E21B /* Main.storyboard */; };
 		89194B1325DD8A8400E8E21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89194B1225DD8A8400E8E21B /* Assets.xcassets */; };
 		89194B1625DD8A8400E8E21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89194B1425DD8A8400E8E21B /* LaunchScreen.storyboard */; };
 		89194B2125DD8A8400E8E21B /* GitCommitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B2025DD8A8400E8E21B /* GitCommitsTests.swift */; };
@@ -39,7 +38,6 @@
 		89194B0925DD8A8100E8E21B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89194B0B25DD8A8100E8E21B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		89194B0D25DD8A8100E8E21B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		89194B1025DD8A8100E8E21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89194B1225DD8A8400E8E21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89194B1525DD8A8400E8E21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89194B1725DD8A8400E8E21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,12 +97,15 @@
 		89194B0825DD8A8100E8E21B /* GitCommits */ = {
 			isa = PBXGroup;
 			children = (
+				89194B4025DD8DA800E8E21B /* Models */,
+				89194B3F25DD8D9B00E8E21B /* Views */,
+				89194B4125DD8DEC00E8E21B /* ViewModels */,
+				89194B4525DD8E2E00E8E21B /* Assets */,
+				89194B4425DD8E2800E8E21B /* Helpers */,
+				89194B4325DD8E2200E8E21B /* Services */,
+				89194B4225DD8E1A00E8E21B /* HTTP */,
 				89194B0925DD8A8100E8E21B /* AppDelegate.swift */,
 				89194B0B25DD8A8100E8E21B /* SceneDelegate.swift */,
-				89194B0D25DD8A8100E8E21B /* ViewController.swift */,
-				89194B0F25DD8A8100E8E21B /* Main.storyboard */,
-				89194B1225DD8A8400E8E21B /* Assets.xcassets */,
-				89194B1425DD8A8400E8E21B /* LaunchScreen.storyboard */,
 				89194B1725DD8A8400E8E21B /* Info.plist */,
 			);
 			path = GitCommits;
@@ -126,6 +127,58 @@
 				89194B2D25DD8A8400E8E21B /* Info.plist */,
 			);
 			path = GitCommitsUITests;
+			sourceTree = "<group>";
+		};
+		89194B3F25DD8D9B00E8E21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89194B0D25DD8A8100E8E21B /* ViewController.swift */,
+				89194B1425DD8A8400E8E21B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89194B4025DD8DA800E8E21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89194B4125DD8DEC00E8E21B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89194B4225DD8E1A00E8E21B /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		89194B4325DD8E2200E8E21B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		89194B4425DD8E2800E8E21B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		89194B4525DD8E2E00E8E21B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				89194B1225DD8A8400E8E21B /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +286,6 @@
 			files = (
 				89194B1625DD8A8400E8E21B /* LaunchScreen.storyboard in Resources */,
 				89194B1325DD8A8400E8E21B /* Assets.xcassets in Resources */,
-				89194B1125DD8A8100E8E21B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		89194B0F25DD8A8100E8E21B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89194B1025DD8A8100E8E21B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		89194B1425DD8A8400E8E21B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
