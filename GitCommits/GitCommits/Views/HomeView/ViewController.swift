@@ -8,9 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     private var alertPresenter: AlertPresenter_Protocol
     private var viewModel: HomeViewModel_Protocol
+    
+    lazy var homeView: HomeView = {
+        let view = HomeView()
+        view.tableView.dataSource = self
+        view.tableView.delegate = self
+        return view
+    }()
     
     init(alertPresenter: AlertPresenter_Protocol = AlertPresenter(),
          viewModel: HomeViewModel_Protocol = HomeViewModel()) {
@@ -30,8 +37,7 @@ class ViewController: UIViewController {
     }
     
     override func loadView() {
-        view = UIView()
-        view.backgroundColor = .red
+        view = homeView
     }
 }
 
@@ -40,14 +46,16 @@ class ViewController: UIViewController {
 extension ViewController: HomeViewModelDelegate {
     
     func startLoading() {
-        print("loading")
+        homeView.tableView.isHidden = true
     }
     
     func loadDataComplete() {
-        print(viewModel.commits)
+        homeView.tableView.isHidden = false
+        homeView.tableView.reloadData()
     }
     
     func loadDataError(error: Error) {
+        homeView.tableView.isHidden = true
         alertPresenter.present(from: self,
                                title: NSLocalizedString("Unexpected Error", comment: ""),
                                message: "\(error)",
@@ -56,4 +64,19 @@ extension ViewController: HomeViewModelDelegate {
     
 }
 
+// MARK: - UITableViewDelegate, UITableViewDataSource
+
+extension ViewController : UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        viewModel.commits.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: CommitCell.identifier, for: indexPath) as! CommitCell
+        cell.selectionStyle = .none
+        cell.configure(commitInfo: viewModel.commits[indexPath.row])
+        return cell
+    }
+}
 
