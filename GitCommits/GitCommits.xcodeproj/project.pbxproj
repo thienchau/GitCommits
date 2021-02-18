@@ -54,6 +54,23 @@
 		89194C0025DEDDED00E8E21B /* HTTPRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BFF25DEDDED00E8E21B /* HTTPRequestTests.swift */; };
 		89194C0525DEDE0B00E8E21B /* HTTPResponseHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C0425DEDE0B00E8E21B /* HTTPResponseHandlerTests.swift */; };
 		89194C0A25DEDE6600E8E21B /* Result+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C0925DEDE6600E8E21B /* Result+Testing.swift */; };
+		89194C1225DEDEE700E8E21B /* FakeHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C1125DEDEE700E8E21B /* FakeHTTPClient.swift */; };
+		89194C1725DEDF0200E8E21B /* FakeAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C1625DEDF0200E8E21B /* FakeAlertPresenter.swift */; };
+		89194C1C25DEDF5400E8E21B /* FakeGitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C1B25DEDF5400E8E21B /* FakeGitService.swift */; };
+		89194C2125DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C2025DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift */; };
+		89194C2625DEE3E000E8E21B /* FakeCommitCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C2525DEE3E000E8E21B /* FakeCommitCellView.swift */; };
+		89194C2B25DEE42200E8E21B /* FakeHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C2A25DEE42200E8E21B /* FakeHomeViewModel.swift */; };
+		89194C3125DEE65000E8E21B /* XCTestCase_FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C3025DEE65000E8E21B /* XCTestCase_FatalError.swift */; };
+		89194C3C25DEE69900E8E21B /* FatalErrorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */; };
+		89194C4025DEE6B300E8E21B /* FatalErrorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */; };
+		89194C4625DEE71600E8E21B /* CommitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C4525DEE71600E8E21B /* CommitTest.swift */; };
+		89194C4F25DEE79600E8E21B /* commit-valid.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C4D25DEE79600E8E21B /* commit-valid.json */; };
+		89194C5025DEE79600E8E21B /* commit-missing-key.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C4E25DEE79600E8E21B /* commit-missing-key.json */; };
+		89194C5C25DEE9E800E8E21B /* AlertPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C5B25DEE9E800E8E21B /* AlertPresenterTests.swift */; };
+		89194C6425DEEA1100E8E21B /* PartiallyFakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C6325DEEA1100E8E21B /* PartiallyFakeViewController.swift */; };
+		89194C6A25DEEAC000E8E21B /* CommitServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C6925DEEAC000E8E21B /* CommitServiceTest.swift */; };
+		89194C7325DEEC9A00E8E21B /* commit-invalid-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */; };
+		89194C7425DEEC9A00E8E21B /* commit-valid-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C7225DEEC9A00E8E21B /* commit-valid-response.json */; };
 		97F5F5B6A5171C45EF30D384 /* Pods_GitCommitsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8DBA9C14B19F5FA294EC2 /* Pods_GitCommitsTests.framework */; };
 		DC0B27FC4BE1220A50679554 /* Pods_GitCommits_GitCommitsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA375E07E313A02EF2B536B /* Pods_GitCommits_GitCommitsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -116,6 +133,22 @@
 		89194BFF25DEDDED00E8E21B /* HTTPRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestTests.swift; sourceTree = "<group>"; };
 		89194C0425DEDE0B00E8E21B /* HTTPResponseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponseHandlerTests.swift; sourceTree = "<group>"; };
 		89194C0925DEDE6600E8E21B /* Result+Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Testing.swift"; sourceTree = "<group>"; };
+		89194C1125DEDEE700E8E21B /* FakeHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHTTPClient.swift; sourceTree = "<group>"; };
+		89194C1625DEDF0200E8E21B /* FakeAlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAlertPresenter.swift; sourceTree = "<group>"; };
+		89194C1B25DEDF5400E8E21B /* FakeGitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeGitService.swift; sourceTree = "<group>"; };
+		89194C2025DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHomeViewModelDelegate.swift; sourceTree = "<group>"; };
+		89194C2525DEE3E000E8E21B /* FakeCommitCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCommitCellView.swift; sourceTree = "<group>"; };
+		89194C2A25DEE42200E8E21B /* FakeHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHomeViewModel.swift; sourceTree = "<group>"; };
+		89194C3025DEE65000E8E21B /* XCTestCase_FatalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase_FatalError.swift; sourceTree = "<group>"; };
+		89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorUtil.swift; sourceTree = "<group>"; };
+		89194C4525DEE71600E8E21B /* CommitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitTest.swift; sourceTree = "<group>"; };
+		89194C4D25DEE79600E8E21B /* commit-valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-valid.json"; sourceTree = "<group>"; };
+		89194C4E25DEE79600E8E21B /* commit-missing-key.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-missing-key.json"; sourceTree = "<group>"; };
+		89194C5B25DEE9E800E8E21B /* AlertPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterTests.swift; sourceTree = "<group>"; };
+		89194C6325DEEA1100E8E21B /* PartiallyFakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiallyFakeViewController.swift; sourceTree = "<group>"; };
+		89194C6925DEEAC000E8E21B /* CommitServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitServiceTest.swift; sourceTree = "<group>"; };
+		89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-invalid-response.json"; sourceTree = "<group>"; };
+		89194C7225DEEC9A00E8E21B /* commit-valid-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-valid-response.json"; sourceTree = "<group>"; };
 		9981E4C8737A16EA1C093D02 /* Pods_GitCommits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitCommits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CE3B83D8E2E04AB04A754E /* Pods-GitCommits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCommits.debug.xcconfig"; path = "Target Support Files/Pods-GitCommits/Pods-GitCommits.debug.xcconfig"; sourceTree = "<group>"; };
 		B7D2E7E54A83F1CB2CF24E33 /* Pods-GitCommitsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCommitsTests.debug.xcconfig"; path = "Target Support Files/Pods-GitCommitsTests/Pods-GitCommitsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -216,9 +249,15 @@
 		89194B1F25DD8A8400E8E21B /* GitCommitsTests */ = {
 			isa = PBXGroup;
 			children = (
+				89194C2F25DEE63A00E8E21B /* Base */,
 				89194BCD25DEDA9500E8E21B /* Test Fakes */,
 				89194BF025DEDCB600E8E21B /* Resources */,
+				89194C4425DEE6E000E8E21B /* Models */,
+				89194C5725DEE99100E8E21B /* Views */,
+				89194C5825DEE9A000E8E21B /* ViewModels */,
+				89194C5925DEE9A600E8E21B /* Services */,
 				89194BCE25DEDB1300E8E21B /* HTTP */,
+				89194C5A25DEE9BA00E8E21B /* New Group */,
 				89194B2025DD8A8400E8E21B /* GitCommitsTests.swift */,
 				89194B2225DD8A8400E8E21B /* Info.plist */,
 			);
@@ -286,6 +325,7 @@
 				89194B9525DDA12900E8E21B /* AlertPresenter.swift */,
 				89194BBE25DDAC9A00E8E21B /* Fonts.swift */,
 				89194BC425DE179E00E8E21B /* Layout.swift */,
+				89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -323,6 +363,13 @@
 				89194BD825DEDC4B00E8E21B /* FakeSessionManager.swift */,
 				89194BE725DEDC7600E8E21B /* FakeHTTPResponseHandler.swift */,
 				89194C0925DEDE6600E8E21B /* Result+Testing.swift */,
+				89194C1125DEDEE700E8E21B /* FakeHTTPClient.swift */,
+				89194C1625DEDF0200E8E21B /* FakeAlertPresenter.swift */,
+				89194C1B25DEDF5400E8E21B /* FakeGitService.swift */,
+				89194C2025DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift */,
+				89194C2525DEE3E000E8E21B /* FakeCommitCellView.swift */,
+				89194C2A25DEE42200E8E21B /* FakeHomeViewModel.swift */,
+				89194C6325DEEA1100E8E21B /* PartiallyFakeViewController.swift */,
 			);
 			path = "Test Fakes";
 			sourceTree = "<group>";
@@ -340,10 +387,84 @@
 		89194BF025DEDCB600E8E21B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				89194C7B25DEECA200E8E21B /* Commit */,
+				89194C7C25DEECA900E8E21B /* CommitResponse */,
 				89194BF125DEDD7600E8E21B /* http-client-test-body.json */,
 				89194BFA25DEDD8C00E8E21B /* Resources.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		89194C2F25DEE63A00E8E21B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89194C3025DEE65000E8E21B /* XCTestCase_FatalError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		89194C4425DEE6E000E8E21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89194C4525DEE71600E8E21B /* CommitTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89194C5725DEE99100E8E21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89194C6825DEEA8100E8E21B /* HomeScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89194C5825DEE9A000E8E21B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89194C5925DEE9A600E8E21B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				89194C6925DEEAC000E8E21B /* CommitServiceTest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		89194C5A25DEE9BA00E8E21B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				89194C5B25DEE9E800E8E21B /* AlertPresenterTests.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		89194C6825DEEA8100E8E21B /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		89194C7B25DEECA200E8E21B /* Commit */ = {
+			isa = PBXGroup;
+			children = (
+				89194C4E25DEE79600E8E21B /* commit-missing-key.json */,
+				89194C4D25DEE79600E8E21B /* commit-valid.json */,
+			);
+			path = Commit;
+			sourceTree = "<group>";
+		};
+		89194C7C25DEECA900E8E21B /* CommitResponse */ = {
+			isa = PBXGroup;
+			children = (
+				89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */,
+				89194C7225DEEC9A00E8E21B /* commit-valid-response.json */,
+			);
+			path = CommitResponse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,7 +585,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89194C5025DEE79600E8E21B /* commit-missing-key.json in Resources */,
+				89194C7325DEEC9A00E8E21B /* commit-invalid-response.json in Resources */,
 				89194BF325DEDD7600E8E21B /* http-client-test-body.json in Resources */,
+				89194C4F25DEE79600E8E21B /* commit-valid.json in Resources */,
+				89194C7425DEEC9A00E8E21B /* commit-valid-response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +713,7 @@
 				89194B8A25DD94AD00E8E21B /* ApiConstants.swift in Sources */,
 				89194B9C25DDA51000E8E21B /* HomeView.swift in Sources */,
 				89194B8425DD92D900E8E21B /* Commit.swift in Sources */,
+				89194C3C25DEE69900E8E21B /* FatalErrorUtil.swift in Sources */,
 				89194BAD25DDA5CA00E8E21B /* CommitCellView.swift in Sources */,
 				89194B6C25DD91C400E8E21B /* SessionManager_Protocol.swift in Sources */,
 				89194BC525DE179E00E8E21B /* Layout.swift in Sources */,
@@ -612,23 +738,35 @@
 			files = (
 				89194B8525DD92D900E8E21B /* Commit.swift in Sources */,
 				89194BC025DDAC9A00E8E21B /* Fonts.swift in Sources */,
+				89194C2125DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift in Sources */,
+				89194C1725DEDF0200E8E21B /* FakeAlertPresenter.swift in Sources */,
+				89194C4025DEE6B300E8E21B /* FatalErrorUtil.swift in Sources */,
+				89194C5C25DEE9E800E8E21B /* AlertPresenterTests.swift in Sources */,
 				89194B9725DDA12900E8E21B /* AlertPresenter.swift in Sources */,
 				89194B6D25DD91C400E8E21B /* SessionManager_Protocol.swift in Sources */,
 				89194B5B25DD917300E8E21B /* HTTPRequest.swift in Sources */,
 				89194BC625DE179E00E8E21B /* Layout.swift in Sources */,
+				89194C6A25DEEAC000E8E21B /* CommitServiceTest.swift in Sources */,
+				89194C1C25DEDF5400E8E21B /* FakeGitService.swift in Sources */,
 				89194B9125DD9FE000E8E21B /* HomeViewModel.swift in Sources */,
+				89194C6425DEEA1100E8E21B /* PartiallyFakeViewController.swift in Sources */,
+				89194C3125DEE65000E8E21B /* XCTestCase_FatalError.swift in Sources */,
 				89194B2125DD8A8400E8E21B /* GitCommitsTests.swift in Sources */,
 				89194B6125DD918D00E8E21B /* HTTPClient.swift in Sources */,
 				89194BE925DEDC7600E8E21B /* FakeHTTPResponseHandler.swift in Sources */,
 				89194BDA25DEDC4B00E8E21B /* FakeSessionManager.swift in Sources */,
 				89194C0025DEDDED00E8E21B /* HTTPRequestTests.swift in Sources */,
 				89194BAE25DDA5CA00E8E21B /* CommitCellView.swift in Sources */,
+				89194C1225DEDEE700E8E21B /* FakeHTTPClient.swift in Sources */,
 				89194B8B25DD94AD00E8E21B /* ApiConstants.swift in Sources */,
+				89194C4625DEE71600E8E21B /* CommitTest.swift in Sources */,
 				89194BFB25DEDD8C00E8E21B /* Resources.swift in Sources */,
 				89194B7F25DD926C00E8E21B /* GitService.swift in Sources */,
 				89194BD125DEDB2800E8E21B /* HTTPClientTests.swift in Sources */,
 				89194C0A25DEDE6600E8E21B /* Result+Testing.swift in Sources */,
+				89194C2625DEE3E000E8E21B /* FakeCommitCellView.swift in Sources */,
 				89194B9D25DDA51000E8E21B /* HomeView.swift in Sources */,
+				89194C2B25DEE42200E8E21B /* FakeHomeViewModel.swift in Sources */,
 				89194B6725DD91A200E8E21B /* HTTPError.swift in Sources */,
 				89194BA425DDA58400E8E21B /* CommitCell.swift in Sources */,
 				89194B5525DD915600E8E21B /* HTTPResponseHandler.swift in Sources */,

@@ -1,0 +1,20 @@
+[
+    {
+        "sha": "abc",
+        "commit": {
+            "message": "Update version 1",
+            "author": {
+                "name": "Tom"
+            }
+        }
+    },
+    {
+        "sha": "def",
+        "commit": {
+            "message": "Change UI view",
+            "author": {
+                "name": "Marry"
+            }
+        }
+    }
+]
