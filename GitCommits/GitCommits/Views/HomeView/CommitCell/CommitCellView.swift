@@ -12,7 +12,7 @@ class CommitCellView: UIView {
     let shaLabel: UILabel = {
         let label = UILabel(frame: CGRect.zero)
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 12.5)
+        label.font = .shaFont
         label.lineBreakMode = .byTruncatingTail
         label.numberOfLines = 1
         return label
@@ -22,7 +22,7 @@ class CommitCellView: UIView {
         let label = UILabel(frame: CGRect.zero)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.lineBreakMode = .byTruncatingTail
-        label.font = UIFont.boldSystemFont(ofSize: 15.0)
+        label.font = .authorFont
         label.numberOfLines = 1
         return label
     }()
@@ -30,7 +30,7 @@ class CommitCellView: UIView {
     let commentLabel: UILabel = {
         let label = UILabel(frame: CGRect.zero)
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 12.0)
+        label.font = .messageFont
         label.numberOfLines = 0
         return label
     }()
@@ -61,10 +61,10 @@ class CommitCellView: UIView {
         addSubview(stackView)
         
         NSLayoutConstraint.activate([
-            stackView.topAnchor.constraint(equalTo: topAnchor, constant: 0),
-            stackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0),
-            stackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 0),
-            stackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 0)
+            stackView.topAnchor.constraint(equalTo: topAnchor, constant: .cellPadding),
+            stackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -.cellPadding),
+            stackView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            stackView.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
     }
     

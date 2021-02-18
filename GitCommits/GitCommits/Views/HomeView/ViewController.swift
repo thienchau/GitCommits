@@ -46,19 +46,21 @@ class ViewController: UIViewController {
 extension ViewController: HomeViewModelDelegate {
     
     func startLoading() {
+        homeView.activityIndicatorView.startAnimating()
         homeView.tableView.isHidden = true
     }
     
     func loadDataComplete() {
+        homeView.activityIndicatorView.stopAnimating()
         homeView.tableView.isHidden = false
         homeView.tableView.reloadData()
     }
     
     func loadDataError(error: Error) {
-        homeView.tableView.isHidden = true
+        homeView.activityIndicatorView.stopAnimating()
         alertPresenter.present(from: self,
                                title: NSLocalizedString("Unexpected Error", comment: ""),
-                               message: "\(error)",
+                               message: "\(error.localizedDescription)",
                                dismissButtonTitle: NSLocalizedString("OK", comment: ""), handler: nil)
     }
     

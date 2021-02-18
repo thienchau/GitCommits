@@ -19,6 +19,12 @@ class HomeView: UIView {
         return tableView
     }()
     
+    let activityIndicatorView: UIActivityIndicatorView = {
+        let spinner = UIActivityIndicatorView(style: .medium)
+        spinner.translatesAutoresizingMaskIntoConstraints = false
+        return spinner
+    }()
+    
     convenience init() {
         self.init(frame: CGRect.zero)
     }
@@ -34,14 +40,16 @@ class HomeView: UIView {
     
     private func commonInit() {
         backgroundColor = .white
-        
         addSubview(tableView)
-        
+        addSubview(activityIndicatorView)
         NSLayoutConstraint.activate([
             tableView.leadingAnchor.constraint(equalTo: readableContentGuide.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: readableContentGuide.trailingAnchor),
             tableView.topAnchor.constraint(equalTo: readableContentGuide.topAnchor),
-            tableView.bottomAnchor.constraint(equalTo: readableContentGuide.bottomAnchor)
+            tableView.bottomAnchor.constraint(equalTo: readableContentGuide.bottomAnchor),
+            
+            activityIndicatorView.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
+            activityIndicatorView.centerYAnchor.constraint(equalTo: safeAreaLayoutGuide.centerYAnchor)
         ])
     }
     
