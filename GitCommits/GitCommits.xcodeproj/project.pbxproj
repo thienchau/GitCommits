@@ -71,6 +71,7 @@
 		89194C6A25DEEAC000E8E21B /* CommitServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C6925DEEAC000E8E21B /* CommitServiceTest.swift */; };
 		89194C7325DEEC9A00E8E21B /* commit-invalid-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */; };
 		89194C7425DEEC9A00E8E21B /* commit-valid-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C7225DEEC9A00E8E21B /* commit-valid-response.json */; };
+		89194C8A25DEEF1C00E8E21B /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C8925DEEF1C00E8E21B /* HomeViewModelTest.swift */; };
 		97F5F5B6A5171C45EF30D384 /* Pods_GitCommitsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8DBA9C14B19F5FA294EC2 /* Pods_GitCommitsTests.framework */; };
 		DC0B27FC4BE1220A50679554 /* Pods_GitCommits_GitCommitsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA375E07E313A02EF2B536B /* Pods_GitCommits_GitCommitsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -149,6 +150,7 @@
 		89194C6925DEEAC000E8E21B /* CommitServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitServiceTest.swift; sourceTree = "<group>"; };
 		89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-invalid-response.json"; sourceTree = "<group>"; };
 		89194C7225DEEC9A00E8E21B /* commit-valid-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-valid-response.json"; sourceTree = "<group>"; };
+		89194C8925DEEF1C00E8E21B /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
 		9981E4C8737A16EA1C093D02 /* Pods_GitCommits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitCommits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CE3B83D8E2E04AB04A754E /* Pods-GitCommits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCommits.debug.xcconfig"; path = "Target Support Files/Pods-GitCommits/Pods-GitCommits.debug.xcconfig"; sourceTree = "<group>"; };
 		B7D2E7E54A83F1CB2CF24E33 /* Pods-GitCommitsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCommitsTests.debug.xcconfig"; path = "Target Support Files/Pods-GitCommitsTests/Pods-GitCommitsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -257,7 +259,7 @@
 				89194C5825DEE9A000E8E21B /* ViewModels */,
 				89194C5925DEE9A600E8E21B /* Services */,
 				89194BCE25DEDB1300E8E21B /* HTTP */,
-				89194C5A25DEE9BA00E8E21B /* New Group */,
+				89194C5A25DEE9BA00E8E21B /* Helpers */,
 				89194B2025DD8A8400E8E21B /* GitCommitsTests.swift */,
 				89194B2225DD8A8400E8E21B /* Info.plist */,
 			);
@@ -422,6 +424,7 @@
 		89194C5825DEE9A000E8E21B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				89194C8925DEEF1C00E8E21B /* HomeViewModelTest.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -434,12 +437,12 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		89194C5A25DEE9BA00E8E21B /* New Group */ = {
+		89194C5A25DEE9BA00E8E21B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				89194C5B25DEE9E800E8E21B /* AlertPresenterTests.swift */,
 			);
-			path = "New Group";
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		89194C6825DEEA8100E8E21B /* HomeScreen */ = {
@@ -763,6 +766,7 @@
 				89194BFB25DEDD8C00E8E21B /* Resources.swift in Sources */,
 				89194B7F25DD926C00E8E21B /* GitService.swift in Sources */,
 				89194BD125DEDB2800E8E21B /* HTTPClientTests.swift in Sources */,
+				89194C8A25DEEF1C00E8E21B /* HomeViewModelTest.swift in Sources */,
 				89194C0A25DEDE6600E8E21B /* Result+Testing.swift in Sources */,
 				89194C2625DEE3E000E8E21B /* FakeCommitCellView.swift in Sources */,
 				89194B9D25DDA51000E8E21B /* HomeView.swift in Sources */,
