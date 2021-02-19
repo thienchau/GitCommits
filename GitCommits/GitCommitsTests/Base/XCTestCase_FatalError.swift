@@ -7,6 +7,7 @@
 
 import Foundation
 import XCTest
+@testable import GitCommits
 
 extension XCTestCase {
     func expectFatalError(expectedMessage: String, testcase: @escaping () -> Void) {

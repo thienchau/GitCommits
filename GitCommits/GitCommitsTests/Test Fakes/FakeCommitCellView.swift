@@ -6,14 +6,15 @@
 //
 
 import Foundation
+@testable import GitCommits
 
 class FakeCommitCellView: CommitCellView {
     
-    var configure_wasCalled = false
+    var configure_wasCalledWithParam: CommitInfo?
     var clearUI_wasCalled = false
     
     override func configure(commitInfo: CommitInfo) {
-        configure_wasCalled = true
+        configure_wasCalledWithParam = commitInfo
     }
     
     override func clearUI() {

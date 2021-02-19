@@ -6,6 +6,7 @@
 //
 
 import Foundation
+@testable import GitCommits
 
 class FakeHomeViewModelDelegate: HomeViewModelDelegate {
     

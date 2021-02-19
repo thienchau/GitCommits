@@ -10,41 +10,24 @@
 		1B176E2747BA9C95AC4B983F /* Pods_GitCommits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9981E4C8737A16EA1C093D02 /* Pods_GitCommits.framework */; };
 		89194B0A25DD8A8100E8E21B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0925DD8A8100E8E21B /* AppDelegate.swift */; };
 		89194B0C25DD8A8100E8E21B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0B25DD8A8100E8E21B /* SceneDelegate.swift */; };
-		89194B0E25DD8A8100E8E21B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0D25DD8A8100E8E21B /* ViewController.swift */; };
+		89194B0E25DD8A8100E8E21B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B0D25DD8A8100E8E21B /* HomeViewController.swift */; };
 		89194B1325DD8A8400E8E21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89194B1225DD8A8400E8E21B /* Assets.xcassets */; };
 		89194B1625DD8A8400E8E21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89194B1425DD8A8400E8E21B /* LaunchScreen.storyboard */; };
 		89194B2125DD8A8400E8E21B /* GitCommitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B2025DD8A8400E8E21B /* GitCommitsTests.swift */; };
 		89194B2C25DD8A8400E8E21B /* GitCommitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B2B25DD8A8400E8E21B /* GitCommitsUITests.swift */; };
 		89194B5425DD915600E8E21B /* HTTPResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B5325DD915600E8E21B /* HTTPResponseHandler.swift */; };
-		89194B5525DD915600E8E21B /* HTTPResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B5325DD915600E8E21B /* HTTPResponseHandler.swift */; };
 		89194B5A25DD917300E8E21B /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B5925DD917300E8E21B /* HTTPRequest.swift */; };
-		89194B5B25DD917300E8E21B /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B5925DD917300E8E21B /* HTTPRequest.swift */; };
 		89194B6025DD918D00E8E21B /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B5F25DD918D00E8E21B /* HTTPClient.swift */; };
-		89194B6125DD918D00E8E21B /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B5F25DD918D00E8E21B /* HTTPClient.swift */; };
 		89194B6625DD91A200E8E21B /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B6525DD91A200E8E21B /* HTTPError.swift */; };
-		89194B6725DD91A200E8E21B /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B6525DD91A200E8E21B /* HTTPError.swift */; };
 		89194B6C25DD91C400E8E21B /* SessionManager_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B6B25DD91C400E8E21B /* SessionManager_Protocol.swift */; };
-		89194B6D25DD91C400E8E21B /* SessionManager_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B6B25DD91C400E8E21B /* SessionManager_Protocol.swift */; };
-		89194B7E25DD926C00E8E21B /* GitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B7D25DD926C00E8E21B /* GitService.swift */; };
-		89194B7F25DD926C00E8E21B /* GitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B7D25DD926C00E8E21B /* GitService.swift */; };
 		89194B8425DD92D900E8E21B /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8325DD92D900E8E21B /* Commit.swift */; };
-		89194B8525DD92D900E8E21B /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8325DD92D900E8E21B /* Commit.swift */; };
-		89194B8A25DD94AD00E8E21B /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8925DD94AD00E8E21B /* ApiConstants.swift */; };
-		89194B8B25DD94AD00E8E21B /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8925DD94AD00E8E21B /* ApiConstants.swift */; };
 		89194B9025DD9FE000E8E21B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8F25DD9FE000E8E21B /* HomeViewModel.swift */; };
-		89194B9125DD9FE000E8E21B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8F25DD9FE000E8E21B /* HomeViewModel.swift */; };
 		89194B9625DDA12900E8E21B /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B9525DDA12900E8E21B /* AlertPresenter.swift */; };
-		89194B9725DDA12900E8E21B /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B9525DDA12900E8E21B /* AlertPresenter.swift */; };
 		89194B9C25DDA51000E8E21B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B9B25DDA51000E8E21B /* HomeView.swift */; };
-		89194B9D25DDA51000E8E21B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B9B25DDA51000E8E21B /* HomeView.swift */; };
 		89194BA325DDA58400E8E21B /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BA225DDA58400E8E21B /* CommitCell.swift */; };
-		89194BA425DDA58400E8E21B /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BA225DDA58400E8E21B /* CommitCell.swift */; };
 		89194BAD25DDA5CA00E8E21B /* CommitCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BAC25DDA5CA00E8E21B /* CommitCellView.swift */; };
-		89194BAE25DDA5CA00E8E21B /* CommitCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BAC25DDA5CA00E8E21B /* CommitCellView.swift */; };
 		89194BBF25DDAC9A00E8E21B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BBE25DDAC9A00E8E21B /* Fonts.swift */; };
-		89194BC025DDAC9A00E8E21B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BBE25DDAC9A00E8E21B /* Fonts.swift */; };
 		89194BC525DE179E00E8E21B /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BC425DE179E00E8E21B /* Layout.swift */; };
-		89194BC625DE179E00E8E21B /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BC425DE179E00E8E21B /* Layout.swift */; };
 		89194BD125DEDB2800E8E21B /* HTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BCF25DEDB2800E8E21B /* HTTPClientTests.swift */; };
 		89194BDA25DEDC4B00E8E21B /* FakeSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BD825DEDC4B00E8E21B /* FakeSessionManager.swift */; };
 		89194BE925DEDC7600E8E21B /* FakeHTTPResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194BE725DEDC7600E8E21B /* FakeHTTPResponseHandler.swift */; };
@@ -59,10 +42,8 @@
 		89194C1C25DEDF5400E8E21B /* FakeGitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C1B25DEDF5400E8E21B /* FakeGitService.swift */; };
 		89194C2125DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C2025DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift */; };
 		89194C2625DEE3E000E8E21B /* FakeCommitCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C2525DEE3E000E8E21B /* FakeCommitCellView.swift */; };
-		89194C2B25DEE42200E8E21B /* FakeHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C2A25DEE42200E8E21B /* FakeHomeViewModel.swift */; };
 		89194C3125DEE65000E8E21B /* XCTestCase_FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C3025DEE65000E8E21B /* XCTestCase_FatalError.swift */; };
 		89194C3C25DEE69900E8E21B /* FatalErrorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */; };
-		89194C4025DEE6B300E8E21B /* FatalErrorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */; };
 		89194C4625DEE71600E8E21B /* CommitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C4525DEE71600E8E21B /* CommitTest.swift */; };
 		89194C4F25DEE79600E8E21B /* commit-valid.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C4D25DEE79600E8E21B /* commit-valid.json */; };
 		89194C5025DEE79600E8E21B /* commit-missing-key.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C4E25DEE79600E8E21B /* commit-missing-key.json */; };
@@ -72,6 +53,14 @@
 		89194C7325DEEC9A00E8E21B /* commit-invalid-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */; };
 		89194C7425DEEC9A00E8E21B /* commit-valid-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 89194C7225DEEC9A00E8E21B /* commit-valid-response.json */; };
 		89194C8A25DEEF1C00E8E21B /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C8925DEEF1C00E8E21B /* HomeViewModelTest.swift */; };
+		89194C8F25DEF07900E8E21B /* CustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C8E25DEF07900E8E21B /* CustomViewTests.swift */; };
+		89194C9425DEF09E00E8E21B /* HomeViewtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C9325DEF09E00E8E21B /* HomeViewtest.swift */; };
+		89194C9925DF277B00E8E21B /* HomeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194C9825DF277B00E8E21B /* HomeViewControllerTest.swift */; };
+		89750CDB25DF880400F2A239 /* FakeHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89750CDA25DF880400F2A239 /* FakeHomeViewModel.swift */; };
+		89750D0925DF8B8D00F2A239 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B8925DD94AD00E8E21B /* ApiConstants.swift */; };
+		89750D0A25DF8B8D00F2A239 /* GitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89194B7D25DD926C00E8E21B /* GitService.swift */; };
+		89750D2E25DF8EEB00F2A239 /* CommitCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89750D2D25DF8EEB00F2A239 /* CommitCellTest.swift */; };
+		89750D3325DF8EFA00F2A239 /* CommitCellViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89750D3225DF8EFA00F2A239 /* CommitCellViewTest.swift */; };
 		97F5F5B6A5171C45EF30D384 /* Pods_GitCommitsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8DBA9C14B19F5FA294EC2 /* Pods_GitCommitsTests.framework */; };
 		DC0B27FC4BE1220A50679554 /* Pods_GitCommits_GitCommitsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA375E07E313A02EF2B536B /* Pods_GitCommits_GitCommitsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -101,7 +90,7 @@
 		89194B0625DD8A8100E8E21B /* GitCommits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCommits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89194B0925DD8A8100E8E21B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89194B0B25DD8A8100E8E21B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89194B0D25DD8A8100E8E21B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89194B0D25DD8A8100E8E21B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		89194B1225DD8A8400E8E21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89194B1525DD8A8400E8E21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89194B1725DD8A8400E8E21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,7 +128,6 @@
 		89194C1B25DEDF5400E8E21B /* FakeGitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeGitService.swift; sourceTree = "<group>"; };
 		89194C2025DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHomeViewModelDelegate.swift; sourceTree = "<group>"; };
 		89194C2525DEE3E000E8E21B /* FakeCommitCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCommitCellView.swift; sourceTree = "<group>"; };
-		89194C2A25DEE42200E8E21B /* FakeHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHomeViewModel.swift; sourceTree = "<group>"; };
 		89194C3025DEE65000E8E21B /* XCTestCase_FatalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase_FatalError.swift; sourceTree = "<group>"; };
 		89194C3B25DEE69900E8E21B /* FatalErrorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorUtil.swift; sourceTree = "<group>"; };
 		89194C4525DEE71600E8E21B /* CommitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitTest.swift; sourceTree = "<group>"; };
@@ -151,6 +139,12 @@
 		89194C7125DEEC9A00E8E21B /* commit-invalid-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-invalid-response.json"; sourceTree = "<group>"; };
 		89194C7225DEEC9A00E8E21B /* commit-valid-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-valid-response.json"; sourceTree = "<group>"; };
 		89194C8925DEEF1C00E8E21B /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		89194C8E25DEF07900E8E21B /* CustomViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTests.swift; sourceTree = "<group>"; };
+		89194C9325DEF09E00E8E21B /* HomeViewtest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewtest.swift; sourceTree = "<group>"; };
+		89194C9825DF277B00E8E21B /* HomeViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTest.swift; sourceTree = "<group>"; };
+		89750CDA25DF880400F2A239 /* FakeHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHomeViewModel.swift; sourceTree = "<group>"; };
+		89750D2D25DF8EEB00F2A239 /* CommitCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitCellTest.swift; sourceTree = "<group>"; };
+		89750D3225DF8EFA00F2A239 /* CommitCellViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitCellViewTest.swift; sourceTree = "<group>"; };
 		9981E4C8737A16EA1C093D02 /* Pods_GitCommits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitCommits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CE3B83D8E2E04AB04A754E /* Pods-GitCommits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCommits.debug.xcconfig"; path = "Target Support Files/Pods-GitCommits/Pods-GitCommits.debug.xcconfig"; sourceTree = "<group>"; };
 		B7D2E7E54A83F1CB2CF24E33 /* Pods-GitCommitsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCommitsTests.debug.xcconfig"; path = "Target Support Files/Pods-GitCommitsTests/Pods-GitCommitsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -343,7 +337,7 @@
 		89194BA125DDA54500E8E21B /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				89194B0D25DD8A8100E8E21B /* ViewController.swift */,
+				89194B0D25DD8A8100E8E21B /* HomeViewController.swift */,
 				89194B9B25DDA51000E8E21B /* HomeView.swift */,
 				89194BAB25DDA5AA00E8E21B /* CommitCell */,
 			);
@@ -370,8 +364,8 @@
 				89194C1B25DEDF5400E8E21B /* FakeGitService.swift */,
 				89194C2025DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift */,
 				89194C2525DEE3E000E8E21B /* FakeCommitCellView.swift */,
-				89194C2A25DEE42200E8E21B /* FakeHomeViewModel.swift */,
 				89194C6325DEEA1100E8E21B /* PartiallyFakeViewController.swift */,
+				89750CDA25DF880400F2A239 /* FakeHomeViewModel.swift */,
 			);
 			path = "Test Fakes";
 			sourceTree = "<group>";
@@ -401,6 +395,7 @@
 			isa = PBXGroup;
 			children = (
 				89194C3025DEE65000E8E21B /* XCTestCase_FatalError.swift */,
+				89194C8E25DEF07900E8E21B /* CustomViewTests.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -448,6 +443,9 @@
 		89194C6825DEEA8100E8E21B /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				89194C9825DF277B00E8E21B /* HomeViewControllerTest.swift */,
+				89194C9325DEF09E00E8E21B /* HomeViewtest.swift */,
+				89194C9D25DF278400E8E21B /* CommitCell */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -468,6 +466,15 @@
 				89194C7225DEEC9A00E8E21B /* commit-valid-response.json */,
 			);
 			path = CommitResponse;
+			sourceTree = "<group>";
+		};
+		89194C9D25DF278400E8E21B /* CommitCell */ = {
+			isa = PBXGroup;
+			children = (
+				89750D2D25DF8EEB00F2A239 /* CommitCellTest.swift */,
+				89750D3225DF8EFA00F2A239 /* CommitCellViewTest.swift */,
+			);
+			path = CommitCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -713,22 +720,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89194B8A25DD94AD00E8E21B /* ApiConstants.swift in Sources */,
 				89194B9C25DDA51000E8E21B /* HomeView.swift in Sources */,
 				89194B8425DD92D900E8E21B /* Commit.swift in Sources */,
 				89194C3C25DEE69900E8E21B /* FatalErrorUtil.swift in Sources */,
 				89194BAD25DDA5CA00E8E21B /* CommitCellView.swift in Sources */,
 				89194B6C25DD91C400E8E21B /* SessionManager_Protocol.swift in Sources */,
 				89194BC525DE179E00E8E21B /* Layout.swift in Sources */,
-				89194B0E25DD8A8100E8E21B /* ViewController.swift in Sources */,
+				89194B0E25DD8A8100E8E21B /* HomeViewController.swift in Sources */,
 				89194B0A25DD8A8100E8E21B /* AppDelegate.swift in Sources */,
 				89194BBF25DDAC9A00E8E21B /* Fonts.swift in Sources */,
-				89194B7E25DD926C00E8E21B /* GitService.swift in Sources */,
 				89194B6625DD91A200E8E21B /* HTTPError.swift in Sources */,
 				89194B9625DDA12900E8E21B /* AlertPresenter.swift in Sources */,
 				89194B9025DD9FE000E8E21B /* HomeViewModel.swift in Sources */,
 				89194B6025DD918D00E8E21B /* HTTPClient.swift in Sources */,
+				89750D0A25DF8B8D00F2A239 /* GitService.swift in Sources */,
 				89194B5A25DD917300E8E21B /* HTTPRequest.swift in Sources */,
+				89750D0925DF8B8D00F2A239 /* ApiConstants.swift in Sources */,
 				89194B0C25DD8A8100E8E21B /* SceneDelegate.swift in Sources */,
 				89194B5425DD915600E8E21B /* HTTPResponseHandler.swift in Sources */,
 				89194BA325DDA58400E8E21B /* CommitCell.swift in Sources */,
@@ -739,42 +746,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89194B8525DD92D900E8E21B /* Commit.swift in Sources */,
-				89194BC025DDAC9A00E8E21B /* Fonts.swift in Sources */,
 				89194C2125DEE3B800E8E21B /* FakeHomeViewModelDelegate.swift in Sources */,
 				89194C1725DEDF0200E8E21B /* FakeAlertPresenter.swift in Sources */,
-				89194C4025DEE6B300E8E21B /* FatalErrorUtil.swift in Sources */,
 				89194C5C25DEE9E800E8E21B /* AlertPresenterTests.swift in Sources */,
-				89194B9725DDA12900E8E21B /* AlertPresenter.swift in Sources */,
-				89194B6D25DD91C400E8E21B /* SessionManager_Protocol.swift in Sources */,
-				89194B5B25DD917300E8E21B /* HTTPRequest.swift in Sources */,
-				89194BC625DE179E00E8E21B /* Layout.swift in Sources */,
 				89194C6A25DEEAC000E8E21B /* CommitServiceTest.swift in Sources */,
 				89194C1C25DEDF5400E8E21B /* FakeGitService.swift in Sources */,
-				89194B9125DD9FE000E8E21B /* HomeViewModel.swift in Sources */,
 				89194C6425DEEA1100E8E21B /* PartiallyFakeViewController.swift in Sources */,
 				89194C3125DEE65000E8E21B /* XCTestCase_FatalError.swift in Sources */,
 				89194B2125DD8A8400E8E21B /* GitCommitsTests.swift in Sources */,
-				89194B6125DD918D00E8E21B /* HTTPClient.swift in Sources */,
 				89194BE925DEDC7600E8E21B /* FakeHTTPResponseHandler.swift in Sources */,
 				89194BDA25DEDC4B00E8E21B /* FakeSessionManager.swift in Sources */,
 				89194C0025DEDDED00E8E21B /* HTTPRequestTests.swift in Sources */,
-				89194BAE25DDA5CA00E8E21B /* CommitCellView.swift in Sources */,
 				89194C1225DEDEE700E8E21B /* FakeHTTPClient.swift in Sources */,
-				89194B8B25DD94AD00E8E21B /* ApiConstants.swift in Sources */,
 				89194C4625DEE71600E8E21B /* CommitTest.swift in Sources */,
 				89194BFB25DEDD8C00E8E21B /* Resources.swift in Sources */,
-				89194B7F25DD926C00E8E21B /* GitService.swift in Sources */,
+				89750CDB25DF880400F2A239 /* FakeHomeViewModel.swift in Sources */,
 				89194BD125DEDB2800E8E21B /* HTTPClientTests.swift in Sources */,
+				89750D3325DF8EFA00F2A239 /* CommitCellViewTest.swift in Sources */,
+				89750D2E25DF8EEB00F2A239 /* CommitCellTest.swift in Sources */,
+				89194C9425DEF09E00E8E21B /* HomeViewtest.swift in Sources */,
 				89194C8A25DEEF1C00E8E21B /* HomeViewModelTest.swift in Sources */,
 				89194C0A25DEDE6600E8E21B /* Result+Testing.swift in Sources */,
 				89194C2625DEE3E000E8E21B /* FakeCommitCellView.swift in Sources */,
-				89194B9D25DDA51000E8E21B /* HomeView.swift in Sources */,
-				89194C2B25DEE42200E8E21B /* FakeHomeViewModel.swift in Sources */,
-				89194B6725DD91A200E8E21B /* HTTPError.swift in Sources */,
-				89194BA425DDA58400E8E21B /* CommitCell.swift in Sources */,
-				89194B5525DD915600E8E21B /* HTTPResponseHandler.swift in Sources */,
+				89194C9925DF277B00E8E21B /* HomeViewControllerTest.swift in Sources */,
 				89194C0525DEDE0B00E8E21B /* HTTPResponseHandlerTests.swift in Sources */,
+				89194C8F25DEF07900E8E21B /* CustomViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,7 +860,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -919,7 +915,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

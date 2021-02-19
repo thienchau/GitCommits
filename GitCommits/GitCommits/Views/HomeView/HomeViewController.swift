@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     private var alertPresenter: AlertPresenter_Protocol
     private var viewModel: HomeViewModel_Protocol
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
 
 // MARK: - HomeViewModelDelegate
 
-extension ViewController: HomeViewModelDelegate {
+extension HomeViewController: HomeViewModelDelegate {
     
     func startLoading() {
         homeView.activityIndicatorView.startAnimating()
@@ -60,7 +60,7 @@ extension ViewController: HomeViewModelDelegate {
         homeView.activityIndicatorView.stopAnimating()
         alertPresenter.present(from: self,
                                title: NSLocalizedString("Unexpected Error", comment: ""),
-                               message: "\(error.localizedDescription)",
+                               message: "\(error)",
                                dismissButtonTitle: NSLocalizedString("OK", comment: ""), handler: nil)
     }
     
@@ -68,7 +68,7 @@ extension ViewController: HomeViewModelDelegate {
 
 // MARK: - UITableViewDelegate, UITableViewDataSource
 
-extension ViewController : UITableViewDelegate, UITableViewDataSource {
+extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         viewModel.commits.count

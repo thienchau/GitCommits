@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import GitCommits
 
 class AlertPresenterTests: XCTestCase {
     var fakeViewController: PartiallyFakeViewController!
